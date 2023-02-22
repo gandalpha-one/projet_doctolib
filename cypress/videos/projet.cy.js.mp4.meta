@@ -1,56 +1,56 @@
 ;FFMETADATA1
 [CHAPTER]
 TIMEBASE=1/1000
-START=-9599
-END=5779
+START=-6286
+END=5194
 title=Suite de tests Doctolib Recherche par spécialiste
 [CHAPTER]
 TIMEBASE=1/1000
-START=7224
-END=21185
+START=6534
+END=16698
 title=Suite de tests Doctolib Recherche par Ville
 [CHAPTER]
 TIMEBASE=1/1000
-START=16318
-END=35152
+START=15197
+END=26868
 title=Suite de tests Doctolib Recherche par spécialiste ET Ville
 [CHAPTER]
 TIMEBASE=1/1000
-START=44784
-END=53993
+START=31007
+END=38544
 title=Suite de tests Doctolib Prendre rdv par disponibilité
 [CHAPTER]
 TIMEBASE=1/1000
-START=49867
-END=63209
+START=38263
+END=46085
 title=Suite de tests Doctolib Récherches fréquentes --> Chirurgien dentiste - Paris
 [CHAPTER]
 TIMEBASE=1/1000
-START=61485
-END=76559
+START=39655
+END=53911
 title=Suite de tests Doctolib Récherches fréquentes --> Médecin généraliste - Paris
 [CHAPTER]
 TIMEBASE=1/1000
-START=74389
-END=91637
+START=53656
+END=68171
 title=Suite de tests Doctolib Récherches fréquentes --> Pédiatre - Paris
 [CHAPTER]
 TIMEBASE=1/1000
-START=78711
-END=108891
+START=55052
+END=82690
 title=Suite de tests Doctolib Recherche un métier inexistant
 [CHAPTER]
 TIMEBASE=1/1000
-START=124142
-END=139077
+START=90906
+END=110333
 title=Suite de tests Doctolib Recherche dans "Trouvez votre spécialiste"
 [CHAPTER]
 TIMEBASE=1/1000
-START=146661
-END=154017
-title=Suite de tests Doctolib accédes a la section recrutement
+START=117159
+END=129767
+title=Suite de tests Doctolib accédes au mention legal
 [CHAPTER]
 TIMEBASE=1/1000
-START=0
-END=null
-title=Suite de tests Doctolib accédes au mention legal
+START=135125
+END=142380
+title=Suite de tests Doctolib accédes a la section recrutement

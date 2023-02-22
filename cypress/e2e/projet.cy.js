@@ -133,6 +133,13 @@ describe('Suite de tests Doctolib', () => {
         
     })
 
+    it("accédes au mention legal", () => {
+      cy.visit('https://www.doctolib.fr/');  
+      cy.get('#didomi-notice-disagree-button > span').click();
+      cy.get('[href="https://doctolib.legal/B2C-legalmentions-FR"]').click();
+      cy.wait(5000);
+})
+
     it("accédes a la section recrutement", () => {
         cy.visit('https://www.doctolib.fr/');
         cy.get('#didomi-notice-disagree-button > span').click();
@@ -140,12 +147,6 @@ describe('Suite de tests Doctolib', () => {
         cy.get('.dl-career-text > .Tappable-inactive > .dl-button-label').click();
         cy.wait(2000);
     })
-
-    it.skip("accédes au mention legal", () => {
-        cy.get('#didomi-notice-disagree-button > span').click();
-        cy.get('[href="https://doctolib.legal/B2C-legalmentions-FR"]').click();
-        cy.wait(5000);
-})
 
      })
   
