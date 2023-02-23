@@ -1,3 +1,9 @@
+const { beforeEach } = require("mocha");
+
+beforeEach(() => {
+  cy.visit("https://www.doctolib.fr/");
+});
+
 describe('Suite de tests Doctolib', () => {
     
     it('Recherche par spécialiste',() => {
